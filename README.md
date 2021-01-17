@@ -2,6 +2,8 @@
 
 Minimal weather web app for training purposes.
 
+**[DEMO](https://mejuch.github.io/la-petite-meteo/)**
+
 ## Resources
 
 - Designed in **HTML, CSS & JavaScript**.
