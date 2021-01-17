@@ -4,6 +4,10 @@ Minimal weather web app for training purposes.
 
 **[DEMO](https://mejuch.github.io/la-petite-meteo/)**
 
+## Usage
+
+Works with *Swiss*, *French* and *Belgian* cities.
+
 ## Resources
 
 - Designed in **HTML, CSS & JavaScript**.
