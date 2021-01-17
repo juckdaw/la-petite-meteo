@@ -1,0 +1,20 @@
+@mixin responsivebox($direction, $mobile-direction) {
+    @media (max-width: #{$smallbreakpoint}) {
+        #{$mobile-direction}: calc(50% - #{$boxcenter});
+        &--move {
+            #{$mobile-direction}: calc(25% - #{$boxcenter});
+        }
+    }
+    @media (min-width: #{$mediumbreakpoint}) {
+        #{$direction}: calc(50% - #{$boxcenter});
+        &--move {
+            #{$direction}: calc(25% - #{$boxcenter});
+        }
+    }
+    @media (min-width: $largebreakpoint) {
+        #{$direction}: calc(50% - #{$boxcenter});
+        &--move {
+            #{$direction}: calc(33.33% - #{$boxcenter});
+        }
+    }
+}

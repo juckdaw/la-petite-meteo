@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La petite météo</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./dist/css/prefixed/style.css">
+</head>
+<body>
+    <main class="container">
+        <section id="search-box" class="box box__primary">
+            <header>
+                <h1 class="box__title">
+                    la petite
+                    <br> 
+                    météo.
+                </h1>
+            </header>
+            <div class="searchform">
+                <input id="city-field" class="searchform__input" type="text" placeholder="ville">
+                <button id="submit" class="searchform__button" type="submit">
+                    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M21 21l-6-6m2-5a7 7 0 11-14 0 7 7 0 0114 0z" />
+                    </svg>
+                </button>
+            </div>
+            <div id="errors-field" class="searchform__errors">
+                <!--errors area-->
+            </div>
+        </section>
+        <section id="data-box" class="box box__secondary">
+            <div id="weather-area" class="weather-area">
+                <!--weather data area-->
+            </div>
+        </section>
+    </main>
+    <script src="./dist/js/app.bundle.js"></script>
+</body>
+</html>

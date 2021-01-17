@@ -1,0 +1,21 @@
+.weather-area {
+    &__city {
+        font-size: 17px;
+        margin-top: 0;
+        margin-bottom: 38px;
+    }
+    &__tmp {
+        font-size: 26px;
+    }
+    &__data {
+        &--darker {
+            color: rgba(255, 255, 255, 0.7);
+            font-size: 14px;
+        }
+        &--right {
+            margin: 3px 0 0 0;
+            float: right;
+            text-align: right;
+        }
+    }
+}

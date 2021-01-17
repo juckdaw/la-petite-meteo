@@ -1,0 +1,26 @@
+{
+  "name": "la-petite-meteo",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack",
+    "sass": "sass --watch ./src/sass/main.scss:./dist/css/style.css --style compressed",
+    "prefix": "postcss ./dist/css/style.css --use autoprefixer -d ./dist/css/prefixed/"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "browserslist": "last 4 versions",
+  "devDependencies": {
+    "webpack": "^5.14.0",
+    "webpack-cli": "^4.3.1"
+  },
+  "dependencies": {
+    "autoprefixer": "^10.2.1",
+    "postcss": "^8.2.4",
+    "postcss-cli": "^8.3.1",
+    "sass": "^1.32.4"
+  }
+}

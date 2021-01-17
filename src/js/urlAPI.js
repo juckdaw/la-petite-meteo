@@ -1,0 +1,1 @@
+export const urlAPI = "https://www.prevision-meteo.ch/services/json/";

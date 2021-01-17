@@ -1,0 +1,16 @@
+$color-primary: #F2D338;
+$color-primary-darker: #736F3F;
+$color-secondary: #3F38F2;
+$color-white: #fff;
+$color-darkgrey: #1E2226;
+$color-lightgrey: #c9c9c9;
+
+$box-size: 220px;
+$box-margin: 2em;
+$box-padding: 2em;
+
+$boxcenter: calc(#{$box-margin} + #{$box-padding} + #{$box-size} / 2);
+
+$smallbreakpoint: 666px;
+$mediumbreakpoint: 667px;
+$largebreakpoint: 1024px;

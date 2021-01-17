@@ -1,0 +1,47 @@
+.searchform {
+    position: relative;
+    &__input {
+        height: 30px;
+        width: calc(100% - 15px);
+        padding: 5px 5px 5px 10px;
+        background-color: $color-white;
+        border: none;
+        border-radius: 3px;
+        color: $color-darkgrey;
+        &:focus {
+            outline: none;
+        }
+        &::placeholder {
+            color: $color-lightgrey;
+            opacity: 1;
+        }
+    }
+    &__button {
+        position: absolute;
+        top: 2.5px;
+        right: 2.5px;
+        border: none;
+        background: none;
+        color: #c9c9c9;
+        height: 40px;
+        cursor: pointer;
+        &:hover {
+            color: $color-darkgrey;
+        }
+        &:focus {
+            outline: none;
+        }
+        & svg {
+            height: 24px;
+        }
+    }
+    &__errors {
+        color: $color-primary-darker;
+        height: 23px;
+        & svg {
+            height: 20px;
+            float: left;
+            padding-right: 5px;
+        }
+    }
+}
