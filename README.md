@@ -2,7 +2,7 @@
 
 Minimal weather web app for training purposes.
 
-**[DEMO](https://mejuch.github.io/la-petite-meteo/)**
+**[DEMO](https://juckdaw.github.io/la-petite-meteo/)**
 
 ## Usage
 
@@ -18,4 +18,4 @@ Weather data provided by [prevision-meteo.ch](https://www.prevision-meteo.ch/) A
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-Copyright (c) 2021 mejuch
+Copyright (c) 2023 juckdaw
